@@ -1,0 +1,11 @@
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Build and output directories
+out/
+build/
+target/
+
+# Compiled Java class files
+*.class
