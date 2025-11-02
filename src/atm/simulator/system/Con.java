@@ -8,10 +8,11 @@ public class Con {
     String url = "jdbc:mysql://localhost:3306/atm_simulator";
     public Con() {
         try {
-            connection = DriverManager.getConnection(url,"root","KALIHACKER(7988)@.eagle.com.in");
+            connection = DriverManager.getConnection(url,"root","root");
             statement = connection.createStatement();
         } catch (Exception e){
             e.printStackTrace();
         }
     }
 }
+
